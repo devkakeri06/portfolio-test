@@ -1,0 +1,92 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+body nav {
+  font-size: 1.5rem;
+}
+.navbar-light .navbar-brand:hover {
+  color: aliceblue;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: aliceblue;
+}
+
+img {
+  text-align: center;
+}
+
+.navbar-light .navbar-brand {
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+}
+
+body section {
+  padding: 0px;
+  margin: 0;
+}
+body section h1 {
+  font-size: 4rem;
+}
+body section .lead {
+  font-size: 2rem;
+}
+h2 {
+  font-weight: 1000;
+  text-decoration: solid black;
+}
+.copyright {
+  margin: 0;
+}
+.bottom-container {
+  text-align: center;
+  height: 130px;
+  padding: 25px 0px;
+}
+
+body section:nth-child(2) {
+  padding: 0;
+}
+#content {
+  min-height: calc(80vh - 80px);
+}
+@media (max-width: 768px) {
+  img {
+    margin-bottom: 80px;
+  }
+  body section h1 {
+    font-size: 3rem;
+  }
+  body section .lead {
+    font-size: 1.5rem;
+  }
+}
+hr {
+  border: dotted #292b2c 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: 50px auto;
+  background-color: #d7e9f7;
+}
+.main .container input[type="text"] {
+  border: none;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.mb-3 input {
+  border: none;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.mb-3 textarea {
+  border: none;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
